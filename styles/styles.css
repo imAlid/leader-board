@@ -15,9 +15,13 @@ main{
 }
 
 /* top players styles */
+.top-players{
+   margin-bottom: 30px;
+}
 .section-title{
    font-size: 24px;
    color: #562EFF;
+   margin-top: 3px;
 }
 .container{
    background-color: #fff;
@@ -27,7 +31,7 @@ main{
 .players{
    display: grid;
    grid-template-columns: repeat(3, 1fr);
-   
+   grid-row-gap: 30px;
 
 }
 .player{
@@ -39,4 +43,5 @@ main{
    height: 56px;
 }.player-name{
    margin-left: 16px;
+   font-size: 18px;
 }
